@@ -10,6 +10,10 @@ body {
 .page-wrapper {
     width: 100vw;
     height: 100vh;
+    display: flex;
+    flex-direction: column;
+    // justify-content: center;
+    align-items: center;
 }
 
 .slider {
@@ -24,10 +28,11 @@ body {
     animation: slide 20s infinite;
     z-index: -10;
 }
+
 h1 {
-font-size: 78px;
-font-weight: 100;
-color: #fff;
+    font-size: 78px;
+    font-weight: 100;
+    color: #fff;
 }
 
 @keyframes slide {
@@ -59,10 +64,11 @@ color: #fff;
 .sign-up-cta {
     // color: red;
     background: #fff;
-    z-index: 100;
+    z-index: 1;
     cursor: pointer;
     padding: 1em;
     color: #000;
     border-radius: 30px;
     // font-weight: 100;
+    font-size: 1em;
 }
