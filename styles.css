@@ -1,0 +1,15 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #000;
+}
+
+.slider {
+  width: 100vw;
+  height: 100vh;
+  background: url(imgs/1.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+/*# sourceMappingURL=styles.css.map */
